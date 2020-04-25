@@ -1,0 +1,19 @@
+{
+  "name": "node-trader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Krisztian Korosi",
+    "url": "https://github.com/Koeroesi86"
+  },
+  "scripts": {
+    "simulate": "node scripts/simulate.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "ws": "^7.2.5"
+  }
+}
